@@ -1,0 +1,15 @@
+.players_container{
+    display:flex;
+    margin-top: 20px;
+}
+.players_info{
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.budget_cart{
+    width: 40%;
+    margin-left: 30px;
+
+}

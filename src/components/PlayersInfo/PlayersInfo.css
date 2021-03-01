@@ -1,0 +1,28 @@
+.players_info_two{
+    display: flex;
+    background-color: rgb(189, 148, 148);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(12, 1, 1);
+}
+.players_img img{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 50px;
+}
+.players_description{
+    margin-left: 150px;
+    margin-right: 20px;
+
+}
+.add_team_btn{
+    width:150px;
+    height: 40px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
