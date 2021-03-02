@@ -5,7 +5,6 @@ import PlayersInfo from '../PlayersInfo/PlayersInfo';
 import BudgetCart from '../BudgetCart/BudgetCart';
 
 const Players = () => {
-   //console.log(playersData);
    const [players, setPlayers] = useState([]);
    useEffect(() => {
        setPlayers(playersData);
@@ -31,8 +30,7 @@ const Players = () => {
             <div className="budget_cart">
                 <BudgetCart cart={cart}></BudgetCart>
             </div>
-            
-            
+        
         </div>
     );
 };
